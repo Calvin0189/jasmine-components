@@ -7,20 +7,20 @@
 
   <parent>
     <groupId>jasmine</groupId>
-    <artifactId>jasmine-components-build</artifactId>
+    <artifactId>jasmine-components-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>jasmine-components-build/pom.xml</relativePath>
+    <relativePath>../jasmine-components-parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>jasmine-components</artifactId>
+  <artifactId>jasmine-components-login</artifactId>
   <packaging>pom</packaging>
 
+  <properties>
+    <parameter.spotless.license>${project.basedir}/../../checkstyle/license-header.txt</parameter.spotless.license>
+  </properties>
+
   <modules>
-    <module>jasmine-components-bom</module>
-    <module>jasmine-components-build</module>
-    <module>jasmine-components-login</module>
-    <module>jasmine-components-parent</module>
-    <module>jasmine-components-starters</module>
+    <module>jasmine-components-login-server</module>
   </modules>
 
 </project>

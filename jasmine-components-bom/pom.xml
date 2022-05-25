@@ -28,6 +28,16 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>jasmine</groupId>
+        <artifactId>jasmine-components-login-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>jasmine</groupId>
+        <artifactId>jasmine-components-starter-login-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
